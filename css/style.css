@@ -1,0 +1,12 @@
+.servicio-box {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: center;
+    height: 75%;
+}
+
+.servicio-box img {
+    width: 80%;
+    height: 70%;
+}
