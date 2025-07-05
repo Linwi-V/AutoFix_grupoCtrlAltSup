@@ -49,10 +49,76 @@
                     </div>
                 </div>
     <!-- Fin Header -->
-    <!--hola-->
 
-    
-    <!--chao-->
+    <!-- Inicio solicitar reparación -->
+
+   <!--Formulario-->
+
+     <section id="Solicitud" class="bg-white py-5">
+        <form class="container">
+
+            <h4 class="mb-4">Solicitar Reparación</h4>
+
+            <div class="col-md-6">
+                <label for ="name" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+
+            <div class="col-md-6">
+                <label for="tipo reparación" class="form-label">Tipo reparación</label>
+                <select class="form-select" id="tipo reparación">
+                    <option selected>Selecciona un servicio</option>
+                    <option value="1">Cambio de Aceite</option>
+                    <option value="2">Revisión de Frenos</option>
+                    <option value="3">Diagnóstico Eléctrico</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <label for="descripcion" class="form-label">Descripción</label>
+                <textarea class="form-control" id="descripcion" rows="3"></textarea>
+            </div>
+
+            <div class="col-md-6">
+                <label for="agendar cita" class="form-label">Agendar Cita</label>
+                <input type="datetime-local" class="form-control" id="agendar cita">
+            </div>
+
+            <div class="col-md-6">
+                <label for ="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" placeholder="usuario@mail.com" id="email">
+            </div>
+
+            <h5 class="mt-4">Información de pago (Simulado)</h5>
+
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">Nombre del Titular</label>
+              <input type="text" class="form-control" id="cc-name">
+            </div>
+
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label">Número de Tarjeta</label>
+              <input type="text" class="form-control" id="cc-number">
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-expiration" class="form-label">Fecha de Vencimiento</label>
+              <input type="text" class="form-control" id="cc-expiration">
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-cvv" class="form-label">CVV</label>
+              <input type="text" class="form-control" id="cc-cvv">
+            </div>
+
+            </div>
+            <div class="text-left">
+                <button type="submit" class="btn btn-success col-md-6">Enviar solicitud</button>
+            </div>
+
+        </form>
+      </section>
+      
     <!-- Bootstrap JS y jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
